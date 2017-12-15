@@ -1,0 +1,195 @@
+* {padding: 0;
+  margin: 0;
+}
+
+#header {
+  background: rgba(34,125,170,1);
+  display: table;
+  width: 100%;
+  height: 700px;
+  position: relative;
+  background-size: cover;
+}
+
+#header h2 {
+  font-weight: 100;
+}
+
+.header1 {
+  padding-left: 100px;
+  padding-top: 60px;
+}
+
+.header1 h2 {
+  margin-bottom: 130px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  padding-top: 10px;
+}
+
+.header1 h1 {
+  font-size: 55px;
+  margin-bottom: 10px;
+  padding-top: 40px;
+}
+
+.header1 hr {
+  border: 2px solid;
+  color: white;
+  width: 60px;
+  margin-bottom: 20px;
+}
+
+.header1 p {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+#about-me {
+  display: inline-block;
+  background-color: #f6e8e5;
+  width: 100%;
+}
+
+#about-me .left {
+  float: left;
+}
+
+#about-me .right {
+  float: right;
+}
+
+.left h2 {
+  padding-left: 100px;
+  margin-right: 50px;
+  padding-top: 90px;
+  color: black;
+  font-family: "futura-pt", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+
+.right h2 {
+  padding-left: 100px;
+  margin-right: 50px;
+  padding-top: 90px;
+  margin-bottom: 10px;
+  font-family: "futura-pt", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+
+.right p {
+  padding-left: 100px;
+  line-height: 30px;
+  font-size: 20px;
+  font-family: "futura-pt", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  margin-bottom: 100px;
+}
+
+input[type=text] {
+	width: 400px;
+	height: 70px;
+	display: block;
+	border: none;
+	border-bottom: 1px grey solid;
+	outline: none;
+	margin-left: 20px;
+}
+
+input[type=password] {
+	width: 400px;
+	height: 70px;
+	border: none;
+	border-bottom: 1px solid grey;
+	margin-left: 20px;
+	outline: none;
+}
+
+input[type=submit] {
+	width: 100px;
+	height: 40px;
+	background-color: #24282b;
+	font-weight: 500;
+	color: white;
+	text-transform: uppercase;
+	border: none;
+}
+
+.submit {
+	margin-top: 30px;
+}
+
+input[type=text]:focus {
+	border-bottom: 1px solid black;
+}
+
+input[type=password]:focus {
+	border-bottom: 1px solid black;
+}
+
+.form {
+  padding-left: 270px;
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+
+.form h1 {
+  padding-left: 200px;
+  margin-bottom: 30px;
+}
+
+.down {
+  background: black;
+  display: table;
+  width: 100%;
+  height: 300px;
+  position: relative;
+}
+
+.down-left {
+  float: left;
+  color: #6d6d6d;
+  padding-top: 50px;
+  padding-left: 100px;
+}
+
+.down-right {
+  float: right;
+  color: #8e8e8e;
+  padding-right: 430px;
+  padding-top: 50px;
+}
+
+.down-right h2 {
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+}
+
+.down-right p {
+  margin-top: 10px;
+  font-family: helvetica,Arial;
+  font-size: 1.3em;
+}
+
+.down-left h2 {
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+}
+
+.down-left p {
+  margin-top: 10px;
+  font-family: helvetica,Arial;
+  font-size: 1.3em;
+}
+
+.down-right a {
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+footer {
+  background-color: black;
+  color: #6d6d6d;
+  text-align: center;
+  margin-bottom: 15px;
+}
